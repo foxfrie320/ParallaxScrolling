@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Parallax Slider视差滚动效果</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="description" content="Parallax Slider with jQuery">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="keywords" content="parallax, jquery, slider, slideshow, rotation, perspective">
+	<link rel="stylesheet" type="text/css" href="http://dreamsky.github.io/main/blog/common/init.css">
+	<link rel="stylesheet" type="text/css" href="css/Normalize Css 1.0.min.css">
+	<link rel="stylesheet" href="css/layout.css">
+	<script src="js/cufon-yui.js"></script>
+	<script src="js/ChunkFive_400.font.js"></script>
+	<script>
+		Cufon.replace('h1', {textShadow: '1px 1px #000'});
+		Cufon.replace('h2', {textShadow: '1px 1px #000'});
+		Cufon.replace('footer', {textShadow: '1px 1px #000'});
+		Cufon.replace('.pxs_loading', {textShadow: '1px 1px #000'});
+	</script>
+</head>
+<body>
+	<div class="title">
+		<h1>Parallax Slider</h1>
+	</div>
+
+	<div id="container" class="container">
+		<div class="bg">
+			<div class="bg1"></div>
+			<div class="bg2"></div>
+			<div class="bg3"></div>
+		</div>
+		<!-- 加载时 -->
+		<div class="loading">Loading images...</div>
+		<div class="slider_wrapper">
+			<ul class="slider">
+				<li><img src="imgs/1.jpg" alt="First Image" /></li>
+				<li><img src="imgs/2.jpg" alt="Second Image" /></li>
+				<li><img src="imgs/3.jpg" alt="Third Image" /></li>
+				<li><img src="imgs/4.jpg" alt="Forth Image" /></li>
+				<li><img src="imgs/5.jpg" alt="FiFth Image" /></li>
+				<li><img src="imgs/6.jpg" alt="Sixth Image" /></li>
+			</ul>
+			<div class="navigation">
+				<span class="next"></span>
+				<span class="prev"></span>
+			</div>
+			<ul class="thumbnails">
+				<li><img src="imgs/thumbs/1.jpg" alt="First Image" /></li>
+				<li><img src="imgs/thumbs/2.jpg" alt="Second Image" /></li>
+				<li><img src="imgs/thumbs/3.jpg" alt="Third Image" /></li>
+				<li><img src="imgs/thumbs/4.jpg" alt="Forth Image" /></li>
+				<li><img src="imgs/thumbs/5.jpg" alt="FiFth Image" /></li>
+				<li><img src="imgs/thumbs/6.jpg" alt="Sixth Image" /></li>
+			</ul>
+		</div>
+	</div>
+	<div class="footer-banner" style="width: 728px;margin: 30px auto"></div>
+	<!-- JS section -->
+	<script src="js/main.js"></script>
+</body>
+</html>
