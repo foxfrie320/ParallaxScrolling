@@ -157,20 +157,19 @@ p {
 		}
 	}
 	.loading {
-		color: #fff;
-		font-size: 20px;
-		padding: 15px 15px 15px 50px;
-		position: absolute;
-		background: #333 url(../imgs/ajax-loader.gif) no-repeat 10px 50%;
-		border-radius: 15px;
-		-webkit-border-radius: 15px;
-		-moz-border-radius: 15px;
-		opacity: .7;
 		width: 180px;
 		position: absolute;
 		top: 150px;
 		left: 50%;
+		color: #fff;
+		font-size: 20px;
 		margin-left: -90px;
+		padding: 15px 15px 15px 50px;
+		border-radius: 15px;
+		-webkit-border-radius: 15px;
+		-moz-border-radius: 15px;
+		opacity: .7;
+		background: #333 url(../imgs/ajax-loader.gif) no-repeat 10px 50%;
 	}
 }
 
